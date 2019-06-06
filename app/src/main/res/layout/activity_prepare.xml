@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#C0E3FA">
+
+    <TextView
+        android:id="@+id/pre_text_1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="200dp"
+        android:text="LEVLE 1"
+        android:gravity="center"
+        android:textSize="60dp"
+        android:textStyle="bold"
+        android:textColor="@color/bule"
+        />
+
+    <TextView
+        android:id="@+id/pre_text_2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:text="请在规定的时间内记住目标形象的\n\n发型、上装、下装、鞋子及配饰等信息"
+        android:textSize="20dp"
+        android:gravity="center_horizontal"
+        />
+
+</LinearLayout>

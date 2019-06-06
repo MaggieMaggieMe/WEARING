@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background3">
+
+    <ImageView
+        android:id="@+id/icon_1"
+        android:layout_width="250dp"
+        android:layout_height="220dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/icon1"
+        />
+
+    <Button
+        android:id="@+id/btn_1"
+        android:layout_width="180dp"
+        android:layout_height="65dp"
+        android:text="开始"
+        android:textSize="40sp"
+        android:textColor="#000000"
+        android:background="@drawable/btn5"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/icon_1"
+        android:onClick="showTaost"
+        android:layout_marginBottom="30dp"
+        android:elevation="50dp" />
+
+    <Button
+        android:id="@+id/btn_2"
+        android:layout_width="180dp"
+        android:layout_height="65dp"
+        android:text="记录"
+        android:textSize="40sp"
+        android:textColor="#000000"
+        android:background="@drawable/btn5"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btn_1"
+        android:onClick="showTaost"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:id="@+id/btn_3"
+        android:layout_width="180dp"
+        android:layout_height="65dp"
+        android:text="退出"
+        android:textSize="40sp"
+        android:textColor="#000000"
+        android:background="@drawable/btn5"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btn_2"
+        android:onClick="showTaost" />
+
+</RelativeLayout>

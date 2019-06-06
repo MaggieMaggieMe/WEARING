@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="80dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/target_text"
+            android:layout_marginLeft="295dp"/>
+
+        <TextView
+            android:id="@+id/title_2"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/result_text"
+            android:layout_marginLeft="50dp"/>
+
+        <ImageView
+            android:id="@+id/level1_2"
+            android:layout_width="250dp"
+            android:layout_height="530dp"
+            android:layout_gravity="center"
+            android:layout_below="@id/title_2"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="10dp"
+            />
+
+        <TextView
+            android:id="@+id/huanyuandu"
+            android:layout_width="230dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/level1_2"
+            android:background="@drawable/huanyuandu"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="30dp"
+            />
+
+        <ImageView
+            android:id="@+id/level1"
+            android:layout_width="120dp"
+            android:layout_height="290dp"
+            android:layout_marginLeft="285dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/title"
+            />
+
+        <TextView
+            android:id="@+id/degree"
+            android:layout_width="100dp"
+            android:layout_height="90dp"
+            android:layout_below="@+id/level1_2"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:text="60%"
+            android:textColor="#fff"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/go_1"
+            android:layout_width="65dp"
+            android:layout_height="50dp"
+            android:background="@drawable/btn6"
+            android:layout_marginBottom="5dp"
+            android:drawableRight="@drawable/ic_right"
+            android:paddingRight="12dp"
+            android:layout_marginLeft="328dp"
+            android:layout_below="@+id/degree"
+            android:layout_marginTop="0dp"
+            />
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RadioGroup
+        android:id="@+id/rg_hair"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <RadioButton
+
+            android:id="@+id/choose_hair_1"
+            android:text="@string/hair_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/hair_1"
+            android:padding="50dp"
+            android:layout_weight="1"
+
+            />
+
+        <RadioButton
+            android:id="@+id/choose_hair_2"
+            android:text="@string/hair_2"
+            android:layout_width="0dp"
+            android:drawableRight="@drawable/hair_2"
+            android:padding="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+    </RadioGroup>
+
+</LinearLayout>

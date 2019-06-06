@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C0E3FA"
+>
+
+
+    <Button
+        android:id="@+id/btn_3"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="10dp"
+        android:background="#F8F8F8"
+        android:drawableLeft="@drawable/ic_back"
+        android:drawablePadding="-17dp"
+        android:text="返回"
+        android:textSize="20dp"
+
+        />
+
+    <TextView
+        android:id="@+id/top_1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="注册"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textColor="#000"
+        android:background="#F8F8F8"
+        />
+
+    <TextView
+        android:id="@+id/text_4"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:text="注册账户："
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="#101010"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="8dp"
+        />
+
+
+    <LinearLayout
+        android:id="@+id/line_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:orientation="horizontal"
+        android:layout_below="@id/text_4"
+        >
+        <TextView
+            android:id="@+id/text_1"
+            android:layout_width="80dp"
+            android:layout_height="45dp"
+            android:text="昵称"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="#3F51B5"
+            android:background="@drawable/btn2"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="5dp"
+            />
+
+        <EditText
+            android:id="@+id/et_1"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:textSize="16dp"
+            android:textColor="#FFAD33"
+            android:hint="创建昵称"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/btn3"/>
+
+
+    </LinearLayout>>
+
+    <LinearLayout
+        android:id="@+id/line_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:orientation="horizontal"
+        android:layout_below="@id/line_1"
+        >
+        <TextView
+            android:id="@+id/text_2"
+            android:layout_width="80dp"
+            android:layout_height="45dp"
+            android:text="账号"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="#3F51B5"
+            android:background="@drawable/btn2"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="5dp"
+            />
+
+        <EditText
+            android:id="@+id/et_2"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:textSize="16dp"
+            android:textColor="#FFAD33"
+            android:hint="创建账号"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/btn3"/>
+
+
+    </LinearLayout>>
+
+    <LinearLayout
+        android:id="@+id/line_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:orientation="horizontal"
+        android:layout_below="@id/line_2"
+        >
+        <TextView
+            android:id="@+id/text_3"
+            android:layout_width="80dp"
+            android:layout_height="45dp"
+            android:text="密码"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="#3F51B5"
+            android:background="@drawable/btn2"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="5dp"
+            />
+
+        <EditText
+            android:id="@+id/et_3"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:textSize="16dp"
+            android:textColor="#FFAD33"
+            android:hint="创建密码"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/btn3"/>
+
+
+    </LinearLayout>>
+
+
+    <Button
+        android:id="@+id/btn_Sure"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="确认注册"
+        android:textSize="20sp"
+        android:textColor="#0066FF"
+        android:background="@drawable/btn4"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/line_3"
+        android:layout_marginTop="30dp"/>
+
+</RelativeLayout>

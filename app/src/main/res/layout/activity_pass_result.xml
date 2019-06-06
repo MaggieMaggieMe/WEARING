@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pass">
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:textSize="40sp"
+        android:textColor="#000000"
+        android:background="@drawable/btn5"
+        android:elevation="50dp"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="80dp"
+        android:drawableRight="@drawable/ic_home"
+        android:paddingRight="25dp"
+        />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:textSize="40sp"
+        android:textColor="#000000"
+        android:background="@drawable/btn5"
+        android:elevation="50dp"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="80dp"
+        android:drawableRight="@drawable/ic_next"
+        android:paddingRight="20dp"
+        />
+
+</LinearLayout>
